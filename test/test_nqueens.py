@@ -1,9 +1,9 @@
-from LCHard.nQueens.NQueens import *
+from leetCodeHard.nQueens.NQueens import *
 import pytest
 import json
 import os
 
-test_datafile = os.getcwd() + "/LCHard/nQueens/nqueens_data.json"
+test_datafile = os.getcwd() + "/leetCodeHard/nQueens/nqueens_data.json"
 with open(test_datafile, "r") as datafile:
     test_data = json.load(datafile)
 
