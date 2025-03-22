@@ -1,9 +1,9 @@
-from countTriplets.CountTriplets import *
+from arrays.countTriplets.CountTriplets import *
 import pytest
 import json
 import os
 
-test_datafile = os.getcwd() + "/countTriplets/triplets_data.json"
+test_datafile = os.getcwd() + "/arrays/countTriplets/triplets_data.json"
 with open(test_datafile, "r") as datafile:
     test_data = json.load(datafile)
 

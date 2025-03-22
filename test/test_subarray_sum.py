@@ -3,7 +3,7 @@ import json
 import os
 import pytest
 
-test_datafile = os.getcwd() + "/subArraySum/subarray_data.json"
+test_datafile = os.getcwd() + "/arrays/subArraySum/subarray_data.json"
 with open(test_datafile, "r") as datafile:
     test_data = json.load(datafile)
 
